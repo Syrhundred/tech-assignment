@@ -1,3 +1,4 @@
+'use client';
 interface SearchBarProps {
     searchQuery: string;
     setSearchQuery: React.Dispatch<React.SetStateAction<string>>;
